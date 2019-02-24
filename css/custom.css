@@ -303,7 +303,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 
 /* Why us */
 #why_us {
-    background: #f2f7fa none repeat scroll 0 0;
+    background: #6DBB4D none repeat scroll 0 0;
+    /* background: #f2f7fa none repeat scroll 0 0; #why_us Feb. 24*/
     padding-bottom: 50px;
     line-height: 18px;
 }
@@ -316,6 +317,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     box-shadow: 0 0 0 10px #6DBB4D, 0 0 0 20px #fadb64, 0 0 0 30px #f7e59c;
     padding: 38px;
     font-size:45px;
+    background: #f2f7fa /* #why_us Feb. 24*/
+
 }
 .why_us_item > h4 {
     font-size: 15px;
