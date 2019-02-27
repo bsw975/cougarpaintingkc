@@ -293,7 +293,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 18px 0 60px;
 }
 .about_bg {
-    background: url(../images/about_bg.png)no-repeat right;
+    /* background: url(../images/about_bg.png)no-repeat right; */
 }
 
 /*Head Title*/
@@ -787,9 +787,14 @@ footer::after {
     }
     nav.navbar.bootsnav .navbar-header {
         padding: 0;
+        margin-left: 300
+    }
+    .navbar-header {
+        margin-left: 300
     }
     nav.navbar.bootsnav .navbar-toggle {
         margin-top: 32px;
+        margin: 0 auto;
     }
     .attr-nav {
         right: 25px;
