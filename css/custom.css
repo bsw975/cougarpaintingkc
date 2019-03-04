@@ -810,7 +810,12 @@ footer::after {
         height: 255px !important;
         width:50%;
     }
-    .grid-item--height2 { height: 500px !important; width:100%;}
+    .grid-item--height2 {
+        height: 500px !important;
+    }
+    /* .grid-item--height2 {
+        height: 500px !important; width:100%;
+    } */
     .grid-item .portfolio_hover_area .fa {
         margin-top: 90px;
     }
@@ -965,7 +970,9 @@ footer::after {
     .grid-item {
         width:100%;
     }
-    .grid-item--height2 { height: 255px !important;}
+    .grid-item--height2 { 
+        height: 255px !important;
+    }
     .grid-item--width2 .portfolio_hover_area .fa {
         margin-top: 90px;
     }
