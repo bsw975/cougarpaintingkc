@@ -746,7 +746,15 @@ footer::after {
         right: 3%;
         top:40px;
     }
-
+    .home .carousel {
+        position: relative;
+        height: 560px;
+        display: inline-block;
+    }
+    .home .carousel .item img{
+        width:100%;
+        height: 560px;
+    }
     .about_banner > img {
         width: 334px;
         display:block;
@@ -838,7 +846,15 @@ footer::after {
     #contact_form .btn.submit_btn {
         width: 168px;
     }
-
+    .home .carousel {
+        position: relative;
+        height: 490px;
+        display: inline-block;
+    }
+    .home .carousel .item img{
+        width:100%;
+        height: 490px;
+    }
 
 }
 
@@ -861,7 +877,16 @@ footer::after {
         top: 20px;
     }
     .carousel-inner > .item > a > img, .carousel-inner > .item > img {
-        height: 450px;
+        height: 250px;
+    }
+    .home .carousel {
+        position: relative;
+        height: 280px;
+        display: inline-block;
+    }
+    .home .carousel .item img{
+        width:100%;
+        height: 280px;
     }
     .carousel-caption > h3 {
         font-size: 26px;
@@ -932,7 +957,7 @@ footer::after {
         padding: 0 8px;
     }
     .carousel-inner > .item > a > img, .carousel-inner > .item > img {
-        height: 420px;
+        height: 220px;
     }
     .carousel-caption {
         top: 5px;
